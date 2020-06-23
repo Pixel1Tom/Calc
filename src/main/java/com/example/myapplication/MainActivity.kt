@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val mode = CalcMode.Substraction
+        var mode = CalcMode.Substraction
         tw_one.text = "text one $mode"
 
     }
