@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         b_1.setOnClickListener { updateTextView(1) }
         b_2.setOnClickListener { updateTextView(2) }
         b_3.setOnClickListener { updateTextView(3) }
+//        b_3.setOnClickListener { updateTextView(3) }
 
     }
 
